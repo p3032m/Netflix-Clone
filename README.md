@@ -21,7 +21,6 @@ Tabs with Javascript
 Positioning
 Some cool stuff
 Usually, people tend to run to CSS Frameworks to develop and style tabs and switching tabs. But here's a pretty simple, basic way of creating switchable tab content using Vanilla JS:
-
 const tabItems = document.querySelectorAll(".tab-item");
 const tabContentItems = document.querySelectorAll(".tab-content-item");
 
@@ -44,7 +43,7 @@ function removeShow() {
 }
 // Listen for tab click
 tabItems.forEach(item => item.addEventListener("click", selectItem));
-And for the HTML All you really need is this:
+And HTML is all you need 
 
 <!-- Content Pretty Long so I'll add later -->
 <!-- But this is the basic gist -->
@@ -56,7 +55,9 @@ And for the HTML All you really need is this:
 </div>
 <!-- Simply add more selectors and corresponding 
 tab content for each selector -->
-Also (Just a thought), You could advance this by adding some animations to the selector borders etc.
+
+  
+
 
 Features in Development
 I might add the other pages on the Netflix website if I ever come back to refactor ^-^
